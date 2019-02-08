@@ -41,6 +41,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        let visibleVC = UIUtil.shared.visibleViewController()
+        if visibleVC is Item1ViewController {
+            return UIInterfaceOrientationMask.landscape
+        } else if visibleVC is Item2ViewController {
+            return UIInterfaceOrientationMask.portrait
+        } else if visibleVC is ModalViewController {
+            return UIInterfaceOrientationMask.landscape
+        } else if visibleVC is PushViewController {
+            return UIInterfaceOrientationMask.landscape
+        } else {
+            return UIInterfaceOrientationMask.all
+        }
+    }
+    
 }
 
