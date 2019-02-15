@@ -1,5 +1,5 @@
 //
-//  PushViewController.swift
+//  PushLandViewController.swift
 //  Rotate
 //
 //  Created by Myunggu Kim on 08/02/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PushViewController: UIViewController {
+class PushLandViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

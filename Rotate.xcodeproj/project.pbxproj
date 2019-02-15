@@ -14,9 +14,10 @@
 		6988375D220D59B5007BE0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6988375B220D59B5007BE0CF /* LaunchScreen.storyboard */; };
 		69883765220D5A00007BE0CF /* Item1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69883764220D5A00007BE0CF /* Item1ViewController.swift */; };
 		69883769220D5BEC007BE0CF /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69883768220D5BEC007BE0CF /* UIUtil.swift */; };
-		6988376B220D5F56007BE0CF /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6988376A220D5F56007BE0CF /* ModalViewController.swift */; };
-		6988376D220D600F007BE0CF /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6988376C220D600F007BE0CF /* PushViewController.swift */; };
+		6988376B220D5F56007BE0CF /* Item2ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6988376A220D5F56007BE0CF /* Item2ModalViewController.swift */; };
+		6988376D220D600F007BE0CF /* PushLandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6988376C220D600F007BE0CF /* PushLandViewController.swift */; };
 		6988376F220D61E4007BE0CF /* Item2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6988376E220D61E4007BE0CF /* Item2ViewController.swift */; };
+		699F4899221697820005D41F /* PresentLandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F4898221697820005D41F /* PresentLandViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +30,10 @@
 		6988375E220D59B5007BE0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69883764220D5A00007BE0CF /* Item1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item1ViewController.swift; sourceTree = "<group>"; };
 		69883768220D5BEC007BE0CF /* UIUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtil.swift; sourceTree = "<group>"; };
-		6988376A220D5F56007BE0CF /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
-		6988376C220D600F007BE0CF /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		6988376A220D5F56007BE0CF /* Item2ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item2ModalViewController.swift; sourceTree = "<group>"; };
+		6988376C220D600F007BE0CF /* PushLandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushLandViewController.swift; sourceTree = "<group>"; };
 		6988376E220D61E4007BE0CF /* Item2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item2ViewController.swift; sourceTree = "<group>"; };
+		699F4898221697820005D41F /* PresentLandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentLandViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +70,9 @@
 				69883754220D59B4007BE0CF /* ViewController.swift */,
 				69883764220D5A00007BE0CF /* Item1ViewController.swift */,
 				6988376E220D61E4007BE0CF /* Item2ViewController.swift */,
-				6988376A220D5F56007BE0CF /* ModalViewController.swift */,
-				6988376C220D600F007BE0CF /* PushViewController.swift */,
+				6988376A220D5F56007BE0CF /* Item2ModalViewController.swift */,
+				6988376C220D600F007BE0CF /* PushLandViewController.swift */,
+				699F4898221697820005D41F /* PresentLandViewController.swift */,
 				69883768220D5BEC007BE0CF /* UIUtil.swift */,
 				69883756220D59B4007BE0CF /* Main.storyboard */,
 				69883759220D59B5007BE0CF /* Assets.xcassets */,
@@ -151,8 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69883755220D59B4007BE0CF /* ViewController.swift in Sources */,
-				6988376B220D5F56007BE0CF /* ModalViewController.swift in Sources */,
-				6988376D220D600F007BE0CF /* PushViewController.swift in Sources */,
+				699F4899221697820005D41F /* PresentLandViewController.swift in Sources */,
+				6988376B220D5F56007BE0CF /* Item2ModalViewController.swift in Sources */,
+				6988376D220D600F007BE0CF /* PushLandViewController.swift in Sources */,
 				6988376F220D61E4007BE0CF /* Item2ViewController.swift in Sources */,
 				69883765220D5A00007BE0CF /* Item1ViewController.swift in Sources */,
 				69883753220D59B4007BE0CF /* AppDelegate.swift in Sources */,
@@ -303,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRTQ52RVZA;
 				INFOPLIST_FILE = Rotate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -320,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRTQ52RVZA;
 				INFOPLIST_FILE = Rotate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

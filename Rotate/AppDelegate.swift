@@ -47,9 +47,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return UIInterfaceOrientationMask.landscape
         } else if visibleVC is Item2ViewController {
             return UIInterfaceOrientationMask.portrait
-        } else if visibleVC is ModalViewController {
+        } else if visibleVC is Item2ModalViewController {
             return UIInterfaceOrientationMask.landscape
-        } else if visibleVC is PushViewController {
+        } else if visibleVC is PushLandViewController {
+            return UIInterfaceOrientationMask.landscape
+        }  else if visibleVC is PresentLandViewController {
             return UIInterfaceOrientationMask.landscape
         } else {
             return UIInterfaceOrientationMask.all

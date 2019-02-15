@@ -1,14 +1,14 @@
 //
-//  ModalViewController.swift
+//  PresentLandViewController.swift
 //  Rotate
 //
-//  Created by Myunggu Kim on 08/02/2019.
+//  Created by Myunggu Kim on 15/02/2019.
 //  Copyright © 2019 Shinvee Inc. All rights reserved.
 //
 
 import UIKit
 
-class ModalViewController: UIViewController {
+class PresentLandViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,5 @@ class ModalViewController: UIViewController {
     @IBAction func close(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-    
 
 }
