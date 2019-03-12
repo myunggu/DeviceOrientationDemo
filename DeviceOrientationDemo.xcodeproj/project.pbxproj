@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6988374F220D59B4007BE0CF /* Rotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6988374F220D59B4007BE0CF /* DeviceOrientationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceOrientationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69883752220D59B4007BE0CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69883754220D59B4007BE0CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69883757220D59B4007BE0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		69883746220D59B4007BE0CF = {
 			isa = PBXGroup;
 			children = (
-				69883751220D59B4007BE0CF /* Rotate */,
+				69883751220D59B4007BE0CF /* DeviceOrientationDemo */,
 				69883750220D59B4007BE0CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		69883750220D59B4007BE0CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6988374F220D59B4007BE0CF /* Rotate.app */,
+				6988374F220D59B4007BE0CF /* DeviceOrientationDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69883751220D59B4007BE0CF /* Rotate */ = {
+		69883751220D59B4007BE0CF /* DeviceOrientationDemo */ = {
 			isa = PBXGroup;
 			children = (
 				69883752220D59B4007BE0CF /* AppDelegate.swift */,
@@ -79,15 +79,15 @@
 				6988375B220D59B5007BE0CF /* LaunchScreen.storyboard */,
 				6988375E220D59B5007BE0CF /* Info.plist */,
 			);
-			path = Rotate;
+			path = DeviceOrientationDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6988374E220D59B4007BE0CF /* Rotate */ = {
+		6988374E220D59B4007BE0CF /* DeviceOrientationDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69883761220D59B5007BE0CF /* Build configuration list for PBXNativeTarget "Rotate" */;
+			buildConfigurationList = 69883761220D59B5007BE0CF /* Build configuration list for PBXNativeTarget "DeviceOrientationDemo" */;
 			buildPhases = (
 				6988374B220D59B4007BE0CF /* Sources */,
 				6988374C220D59B4007BE0CF /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = Rotate;
+			name = DeviceOrientationDemo;
 			productName = Rotate;
-			productReference = 6988374F220D59B4007BE0CF /* Rotate.app */;
+			productReference = 6988374F220D59B4007BE0CF /* DeviceOrientationDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6988374A220D59B4007BE0CF /* Build configuration list for PBXProject "Rotate" */;
+			buildConfigurationList = 6988374A220D59B4007BE0CF /* Build configuration list for PBXProject "DeviceOrientationDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6988374E220D59B4007BE0CF /* Rotate */,
+				6988374E220D59B4007BE0CF /* DeviceOrientationDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -307,16 +307,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TRTQ52RVZA;
-				INFOPLIST_FILE = Rotate/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/DeviceOrientationDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shinvee.Rotate;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.DeviceOrientationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,23 +326,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TRTQ52RVZA;
-				INFOPLIST_FILE = Rotate/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/DeviceOrientationDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shinvee.Rotate;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.DeviceOrientationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6988374A220D59B4007BE0CF /* Build configuration list for PBXProject "Rotate" */ = {
+		6988374A220D59B4007BE0CF /* Build configuration list for PBXProject "DeviceOrientationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6988375F220D59B5007BE0CF /* Debug */,
@@ -350,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69883761220D59B5007BE0CF /* Build configuration list for PBXNativeTarget "Rotate" */ = {
+		69883761220D59B5007BE0CF /* Build configuration list for PBXNativeTarget "DeviceOrientationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69883762220D59B5007BE0CF /* Debug */,
